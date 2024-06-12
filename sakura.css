@@ -25,6 +25,11 @@ body {
   color: #4a4a4a;
   background-color: #f9f9f9;
   padding: 13px;
+  padding-top: 20%;
+}
+
+header {
+  margin-bottom: 10%;
 }
 
 @media (max-width: 684px) {
@@ -38,8 +43,9 @@ body {
   }
 }
 h1, h2, h3, h4, h5, h6 {
+  text-align: center;
   line-height: 1.1;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  font-family: 'MatisseProEB', serif;
   font-weight: 700;
   margin-top: 3rem;
   margin-bottom: 1.5rem;
@@ -88,7 +94,7 @@ hr {
 
 a {
   text-decoration: none;
-  color: #1d7484;
+  color: #268bd2;
 }
 a:visited {
   color: #144f5a;
@@ -99,9 +105,10 @@ a:hover {
 }
 
 ul {
+  list-style: none;
   padding-left: 1.4em;
-  margin-top: 0px;
-  margin-bottom: 2.5rem;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
 }
 
 li {
@@ -231,4 +238,9 @@ label, legend, fieldset {
   display: block;
   margin-bottom: 0.5rem;
   font-weight: 600;
+}
+
+.list-container {
+  display: flex;
+  justify-content: center;
 }
