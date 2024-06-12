@@ -50,18 +50,17 @@
 
 /* Body */
 html {
-  font-size: 62.5%;
   font-family: 'MatisseProEB', serif;
 }
 
 body {
-  font-size: 1.8rem;
+  font-size: 1.25rem;
   line-height: 1.618;
   margin: auto;
   color: var(--main_text);
   background-color: var(--bg);
   padding: 0;
-  padding-top: 15rem;
+  padding-top: 5rem;
   position: relative;
   height: 100vh;
   width: 100vw;
@@ -81,6 +80,7 @@ header {
     font-size: 1.35rem;
   }
 }
+
 h1, h2, h3, h4, h5, h6 {
   color: var(--main_text);
   text-align: center;
