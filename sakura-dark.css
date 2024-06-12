@@ -4,10 +4,19 @@
  * Minimal css theme.
  * Project: https://github.com/oxalorg/sakura/
  */
+
+@font-face {
+	font-family: "MatisseProEB";
+	src: url("FOT-Matisse_Pro_EB.otf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+
 /* Body */
 html {
   font-size: 62.5%;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  font-family: 'MatisseProEB', serif;
 }
 
 body {
